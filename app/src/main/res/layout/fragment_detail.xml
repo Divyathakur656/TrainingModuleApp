@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".DetailFragment">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/titleTV"
+            android:text="Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="14sp"
+            android:id="@+id/desceiptionTV"
+            android:text="description" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_item"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:id="@+id/markStatus"
+            android:textColor="@color/black"
+            android:text="Mark as Completed" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/statusTV"
+            android:text="Status:Pending" />
+
+    </LinearLayout>
+</layout>
